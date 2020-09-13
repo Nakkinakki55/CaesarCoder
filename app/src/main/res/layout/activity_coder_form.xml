@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoderForm">
+
+    <EditText
+        android:id="@+id/txtHirabunn"
+        android:layout_width="304dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="56dp"
+        android:autofillHints=""
+        android:background="@drawable/view_frame"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/txtMesHirabunn"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txtMesHirabunn" />
+
+    <ImageView
+        android:id="@+id/yazirushiMark"
+        android:layout_width="78dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="188dp"
+        android:contentDescription="@string/strYazirushi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtHirabunn"
+        app:srcCompat="@drawable/yazirusi" />
+
+    <EditText
+        android:id="@+id/txtNum"
+
+        android:layout_width="48dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:autofillHints=""
+        android:background="@drawable/view_frame"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/txtNumStr"
+        android:inputType="textPersonName"
+        android:maxLength="3"
+        android:text="@string/txtNumStr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHirabunn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/txtMoji"
+        app:layout_constraintBottom_toBottomOf="@+id/txtNum"
+        app:layout_constraintStart_toEndOf="@+id/txtNum"
+        app:layout_constraintTop_toTopOf="@+id/txtNum"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnAngou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="@string/btnTxtstr"
+        app:layout_constraintStart_toStartOf="@+id/txtHirabunn"
+        app:layout_constraintTop_toBottomOf="@+id/txtHirabunn" />
+
+    <Button
+        android:id="@+id/btnFukugou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnFukugoustr"
+        app:layout_constraintEnd_toEndOf="@+id/txtHirabunn"
+        app:layout_constraintTop_toTopOf="@+id/btnAngou" />
+
+    <EditText
+        android:id="@+id/txtFukubunn"
+        android:layout_width="304dp"
+        android:layout_height="176dp"
+        android:autofillHints=""
+        android:background="@drawable/view_frame"
+        android:ems="10"
+        android:enabled="true"
+        android:gravity="start|top"
+        android:hint="@string/txtMesFukubunn"
+        android:inputType="textMultiLine"
+        android:text="@string/txtMesFukubunn"
+        app:layout_constraintStart_toStartOf="@+id/txtHirabunn"
+        app:layout_constraintTop_toBottomOf="@+id/yazirushiMark" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

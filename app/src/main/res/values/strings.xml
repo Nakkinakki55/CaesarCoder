@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CaesarCoder</string>
+    <string name="LogoImage"></string>
+    <string name="logoggg"></string>
+    <string name="btnStart">START</string>
+    <string name="txtMesHirabunn">ひらがな\nカタカナ\nアルファベット（大文字）\nアルファベット（小文字）\nを入力してください。\n\nそれ以外の文字は暗号化、複合化されません。</string>
+    <string name="strYazirushi" />
+    <string name="txtNumStr" />
+    <string name="txtMoji">文字ずらす</string>
+    <string name="btnTxtstr">暗号化</string>
+    <string name="btnFukugoustr">復号化</string>
+    <string name="txtMesFukubunn"></string>
+</resources>

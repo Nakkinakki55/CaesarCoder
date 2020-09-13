@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- グレーの四角形を配置 -->
+    <item>
+        <shape>
+            <solid android:color="#020202"/>
+        </shape>
+    </item>
+    <!-- 白い四角形を上記の四角形に重ねて配置。ただし、2dpだけ内側にずらす -->
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape>
+            <solid android:color="#ffffff"/>
+        </shape>
+    </item>
+</layer-list>
