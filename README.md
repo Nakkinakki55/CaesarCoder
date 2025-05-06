@@ -34,10 +34,16 @@ O -> R
 
 ## インストール方法
 ### 1. リポジトリをクローン
-```bash
-git clone https://github.com/Nakkinakki55/CaesarCipherApp.git
-cd CaesarCipherApp
+```txt
+git clone https://github.com/Nakkinakki55/CaesarCoder.git
+cd CaesarCoder
+```
 
+## 使い方
+1. 文字ずらす にずらしたい数を入力
+2. 「暗号化」ボタン を押すと暗号化された文字列が表示
+3. 「復号化」ボタン を押すと元の文字列に復元
 
+![image](https://github.com/user-attachments/assets/524bc088-cc26-4a43-91a4-07e9afe97dbf)
 
 
