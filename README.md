@@ -46,4 +46,52 @@ cd CaesarCoder
 
 ![image](https://github.com/user-attachments/assets/524bc088-cc26-4a43-91a4-07e9afe97dbf)
 
+---
+
+# CaesarCoder (Encryption/Decryption App)
+This project involves developing an Android application using Kotlin to perform string encryption and decryption via the Caesar cipher. The app supports Hiragana, Katakana, and both uppercase and lowercase English alphabets, allowing users to encrypt and decrypt text by shifting characters by a specified number of positions.
+
+---
+
+## Technologies Used
+| Technology | Details |
+|------|------|
+| **Development Language** | Kotlin |
+| **Development Environment** | Android Studio |
+
+---
+
+## What is the Caesar Cipher?
+The Caesar Cipher is an encryption method said to have been used by Julius Caesar, an ancient Roman emperor. This cipher employs a simple technique of shifting letters forward or backward by a fixed number of positions to make them unreadable.
+<br>
+For example, if you shift the word "HELLO" 3 characters to the right, it becomes:
+<br>
+```txt
+H -> K 
+E -> H 
+L -> O 
+L -> O 
+O -> R
+```
+As a result, "HELLO" is transformed into "KHOOR". To decrypt it, you simply shift the characters back by the same number of positions.
+
+While this method is straightforward, it can be easily deciphered if the number of characters is small, making it rarely used in modern cryptography. However, it can still be employed for educational purposes or for simple encrypted messages. 
+
+---
+
+## Installation
+### 1. Clone the Repository
+```txt
+git clone https://github.com/Nakkinakki55/CaesarCoder.git
+cd CaesarCoder
+```
+
+## Usage
+1. Enter the desired shift amount in "文字ずらす" (Shift Characters).
+2. Tap the "暗号化" (Encrypt) button to display the encrypted string.
+3. Tap the "復号化" (Decrypt) button to restore the original string.
+
+![image](https://github.com/user-attachments/assets/524bc088-cc26-4a43-91a4-07e9afe97dbf)
+
+
 
